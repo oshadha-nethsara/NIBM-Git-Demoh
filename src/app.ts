@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.use('/attendee', express.static(path.join(__dirname, '../html-files')));
 
